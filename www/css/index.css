@@ -1,0 +1,7 @@
+p, div, header,a, h1,h2,h3,img{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F1FAF9;
+}
