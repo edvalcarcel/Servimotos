@@ -5,3 +5,256 @@ p, div, header,a, h1,h2,h3,img{
 body{
     background: #F1FAF9;
 }
+
+#titulo{
+        font-size: 200px;
+        }
+/*estilos del header*/
+#titulo img{
+        border: 2px solid grey;
+        margin: 0;
+        padding: 0;
+        border-radius: 800px;
+        overflow: hidden;
+        }
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header h1{
+    text-align: center;
+    }
+/*estilos del header*/
+
+ /********************estilos del content**************************/
+.contenido h1{
+    text-align: center
+    
+    }
+#form_inicio{
+    width: 100%;
+    height: auto;
+    
+    
+}
+#form_inicio table{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form_inicio table tr td{
+    height: 20px;
+}
+
+#form_inicio table tr td input{
+    width: 100%;
+    border-radius: 10px;
+    height: 20px;
+}
+#form_inicio table tr td:first-child {
+    width: 20%;
+    text-align: center;
+    
+}
+#form_inicio table tr td input#enviar_form_inicio{
+    width: 50%;
+    height: 30px;
+}
+#form_inicio table tr:last-child{
+    text-align: center;
+    height: 20px;
+    
+}
+
+    
+    /********************estilos del content**************************/ 
+    
+    /********************estilos del footer**************************/ 
+
+.footer{
+    width: 100%;
+
+}
+p{
+    margin-top: 15px;
+    text-align: center;
+}
+    
+    /********************estilos del footer**************************/ 
+
+
+
+
+
+
+
+
+/************consulta para despositivos mayores de 720px**************/
+@media only screen and (max-width: 721px), only screen and (max-width: 2600px){  
+ /*******************estilos del header****************/ 
+ #titulo{
+        font-size: 110px;
+        }
+/*estilos del header*/
+#titulo img{
+        border: 2px solid grey;
+        margin: 0;
+        padding: 0;
+        border-radius: 100px;
+        overflow: hidden;
+        width: 80px; 
+        height: 80px;
+        }
+    
+   /********************estilos del header**************************/ 
+    
+    
+      /********************estilos del content**************************/ 
+    
+    /********************estilos del content**************************/ 
+    
+    /********************estilos del footer**************************/ 
+    
+    /********************estilos del footer**************************/ 
+} 
+
+/*************fin de la consulta para despositivos mayores de 720px*************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************consulta para despositivos mayores de 480 y menores de 720px**************/
+
+@media only screen and (max-width: 480px), only screen and (max-width: 720px){  
+    
+           
+      /********************estilos del header **************************/ 
+  #titulo{
+        font-size: 50px;
+        }
+/*estilos del header*/
+#titulo img{
+        border: 2px solid grey;
+        margin: 0;
+        padding: 0;
+        border-radius: 100px;
+        overflow: hidden;
+        width: 20px; 
+        height: 20px;
+        }
+   
+    /********************estilos del header **************************/ 
+
+
+      /********************estilos del content**************************/ 
+    
+    /********************estilos del content**************************/ 
+    
+    /********************estilos del footer**************************/ 
+    
+    /********************estilos del footer**************************/ 
+    
+    
+} 
+
+/************fin de la consulta para despositivos mayores de 480 y menores de 720px**************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************consulta para despositivos mayores de 320 y menores de 480px**************/
+@media only screen and (max-width: 320px), only screen and (max-width: 479px){  
+    
+            /********************estilos del header **************************/ 
+        #titulo{
+            font-size: 30px;
+            }
+    /*estilos del header*/
+    #titulo img{
+            border: 2px solid grey;
+            margin: 0;
+            padding: 0;
+            border-radius: 25px;
+            overflow: hidden;
+            width: 15px; 
+            height: 15px;
+            }
+    
+        /********************estilos del header **************************/ 
+
+
+      /********************estilos del content**************************/ 
+    
+    /********************estilos del content**************************/ 
+    
+    /********************estilos del footer**************************/ 
+    
+    /********************estilos del footer**************************/ 
+    
+    
+    
+    
+} 
+
+/************fin de la consulta para despositivos mayores de 320 y menores de 480px**************/
